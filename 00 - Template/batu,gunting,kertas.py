@@ -1,13 +1,13 @@
 import random
 
-pemain = input(
-    "Tentukan pilihanmu!\n'g' untuk gunting,'b' untuk batu,'k' untuk kertas:"
-)
+print("Pilihan =>\nb-> batu, g-> gunting, k-> kertas")
+pemain = input("Tentukan pilihanmu! :")
+pemain = pemain.lower()
 
 komputer = random.choice(['b','g','k'])
 
 print("pilihan kamu:" + pemain)
-print("pilihan BOT:" + komputer)
+print("pilihan BOT :" + komputer)
 
 if pemain == komputer:
     print("permainan seri")

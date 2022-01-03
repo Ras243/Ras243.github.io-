@@ -11,4 +11,4 @@ elif op == '/':
 elif op == '*':
     print(num1 * num2)
 else:
-    print("operator tidak valid")
+    print("operator tidak valid") 

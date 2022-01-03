@@ -12,7 +12,7 @@ buah.append("durian")
 print("\nSetelah ditambah:")
 print(buah)
 
-# ibu mengga nti buah pertama dengan manggis
+# ibu mengganti buah pertama dengan manggis
 buah[0]=("manggis")
 print("\nSetelah diganti:")
 print(buah)

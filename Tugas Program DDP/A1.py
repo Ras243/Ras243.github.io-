@@ -9,7 +9,7 @@ print(nilai2)
 nilai -= 2
 print(nilai)
 nilai *=8
-print(nilai)
+print(nilai) 
 nilai /= 2
 print(nilai)
 nilai %= 5
